@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "X": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EXE",
+    "GEG"
+  ],
+  "result": {
+    "item": "felixmorecurios:ring_slot_crystal"
+  }
+}

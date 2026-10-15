@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:obsidian"
+    },
+    "X": {
+      "item": "minecraft:diamond_chestplate"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EXE",
+    "GEG"
+  ],
+  "result": {
+    "item": "felixmorecurios:body_slot_crystal"
+  }
+}

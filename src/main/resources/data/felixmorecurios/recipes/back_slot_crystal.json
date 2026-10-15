@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:amethyst_block"
+    },
+    "X": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EXE",
+    "GEG"
+  ],
+  "result": {
+    "item": "felixmorecurios:back_slot_crystal"
+  }
+}

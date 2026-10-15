@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "E": {
+      "item": "minecraft:diamond_block"
+    },
+    "X": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EXE",
+    "GEG"
+  ],
+  "result": {
+    "item": "felixmorecurios:curio_slot_crystal"
+  }
+}

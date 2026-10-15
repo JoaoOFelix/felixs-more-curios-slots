@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "felixmorecurios:item/hands_slot_crystal"
+  }
+}

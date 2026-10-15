@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="felixmorecurios"
+version="1.0.0"
+displayName="Felix's More Curios Slots"
+authors="Felix"
+description='''
+Consumable crystals that permanently unlock extra Curios slots for each player.
+Limited per slot type (default 3 each, 4 for head; editable in SlotLimits.java and the config). Adds crystals for slots from Iron's Spells 'n Spellbooks,
+Ars Nouveau and Hostile Neural Networks when those mods are installed.
+'''
+
+[[dependencies.felixmorecurios]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.felixmorecurios]]
+modId="curios"
+mandatory=true
+versionRange="[5.2,)"
+ordering="AFTER"
+side="BOTH"

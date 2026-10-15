@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "felixmorecurios:item/talisman_slot_crystal"
+  }
+}

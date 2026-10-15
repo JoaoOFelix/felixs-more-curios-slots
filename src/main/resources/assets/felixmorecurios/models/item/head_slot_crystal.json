@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "felixmorecurios:item/head_slot_crystal"
+  }
+}

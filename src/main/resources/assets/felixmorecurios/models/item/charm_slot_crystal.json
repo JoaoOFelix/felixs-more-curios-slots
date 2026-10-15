@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "felixmorecurios:item/charm_slot_crystal"
+  }
+}

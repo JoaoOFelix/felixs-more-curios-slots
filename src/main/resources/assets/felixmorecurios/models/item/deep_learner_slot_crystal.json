@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "felixmorecurios:item/deep_learner_slot_crystal"
+  }
+}
