@@ -32,8 +32,6 @@ public class FelixMoreCuriosConfig {
 
     /** Regra para decidir se um cristal está disponível no ambiente instalado. */
     public enum AvailabilityMode {
-        /** Sempre é possível usar os cristais */
-        ALWAYS,
         /** Só exige o mod (quando o cristal tem um mod associado). */
         MOD_REGISTERED,
         /** O tipo de slot precisa estar registrado no Curios. */
@@ -160,12 +158,11 @@ public class FelixMoreCuriosConfig {
                 .push("availability");
         AVAILABILITY_MODE = BUILDER
                 .comment("Quando um cristal está disponível (uso e aba criativa):",
-                        "ALWAYS                   = nada é exigido para usar os cristais.",
                         "MOD_REGISTERED           = apenas exige o mod associado, se houver.",
                         "SLOT_REGISTERED          = o tipo de slot precisa existir no Curios.",
                         "SLOT_REGISTERED_AND_USED = além disso, algum item precisa estar na tag curios:<slot>.",
                         "Obs.: itens que usam o slot só via capability (sem tag) não são detectados no último modo.")
-                .defineEnum("availability mode", AvailabilityMode.ALWAYS);
+                .defineEnum("availability mode", AvailabilityMode.SLOT_REGISTERED_AND_USED);
         /*
         SLOT_MODE = BUILDER
                 .comment("Sempre disponivel para uso",

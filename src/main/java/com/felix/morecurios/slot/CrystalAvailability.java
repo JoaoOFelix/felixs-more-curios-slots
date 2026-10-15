@@ -26,15 +26,6 @@ public final class CrystalAvailability {
         } */
 
 
-        if (type.isModded()) {
-            return false;
-        }
-
-        // Não exige registro do slot nem itens associados.
-        if (availabilityMode == AvailabilityMode.ALWAYS) {
-            return true;
-        }
-
         // Exige que o mod associado esteja disponível, quando aplicável.
         if (availabilityMode == AvailabilityMode.MOD_REGISTERED) {
             return type.isModAvailable();

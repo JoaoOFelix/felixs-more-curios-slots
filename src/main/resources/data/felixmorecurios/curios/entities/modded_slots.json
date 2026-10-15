@@ -1,0 +1,18 @@
+{
+  "entities": ["minecraft:player"],
+  "slots": [
+    "spellbook",
+    "an_focus",
+    "deep_learner",
+    "adv_pattern_encoder",
+    "bundle",
+    "crafting_on_a_stick",
+    "heart_amulet",
+    "psd",
+    "rings",
+    "sentient_armour_socket",
+    "shoulders",
+    "talisman",
+    "waist"
+  ]
+}
