@@ -162,7 +162,7 @@ public class FelixMoreCuriosConfig {
                         "SLOT_REGISTERED          = o tipo de slot precisa existir no Curios.",
                         "SLOT_REGISTERED_AND_USED = além disso, algum item precisa estar na tag curios:<slot>.",
                         "Obs.: itens que usam o slot só via capability (sem tag) não são detectados no último modo.")
-                .defineEnum("availability mode", AvailabilityMode.SLOT_REGISTERED_AND_USED);
+                .defineEnum("availability mode", AvailabilityMode.MOD_REGISTERED);
         /*
         SLOT_MODE = BUILDER
                 .comment("Sempre disponivel para uso",
