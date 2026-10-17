@@ -9,6 +9,8 @@ displayName="Felix's More Curios Slots"
 authors="Felix"
 displayURL="https://github.com/JoaoOFelix/felixs-more-curios-slots"
 issueTrackerURL="https://github.com/JoaoOFelix/felixs-more-curios-slots/issues"
+logoFile="logo.png"
+logoBlur=false
 description='''
 Consumable crystals that permanently unlock extra Curios slots for each player.
 Limits are per player and per slot type, set globally or per slot in the config.
