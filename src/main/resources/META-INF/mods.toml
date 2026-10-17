@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Do Whatever You Want"
+license="MIT"
 
 [[mods]]
 modId="felixmorecurios"
